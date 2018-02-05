@@ -1,0 +1,26 @@
+#mybag-title {
+  position: relative;
+  top: 130px;
+}
+
+#lists {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+}
+
+#havewant {
+  margin-top: -100px;
+}
+
+li {
+  list-style: none;
+}
+
+.search-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}

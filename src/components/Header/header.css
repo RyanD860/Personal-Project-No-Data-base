@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Merienda+One");
+
+header {
+  height: 18vh;
+  width: 100%;
+  background-color: #fee1f8;
+  position: fixed;
+  margin: -50px auto;
+  z-index: 5;
+}
+
+h1 {
+  font-family: "Sacramento";
+  font-size: 60px;
+  color: #534a51;
+  position: relative;
+  top: -20px;
+}
+
+#flex-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 20px;
+  font-family: "Merienda One", cursive;
+  position: relative;
+  bottom: 40px;
+  font-size: 26px;
+  color: #534a51;
+  z-index: 1;
+  background-color: #fee1f8;
+  margin: auto;
+}
+
+nav:hover {
+  cursor: pointer;
+}
